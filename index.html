@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+     font-size: 11px;
+     text-align: center;
+     margin: 0rem;
+     padding: 0.5rem 0rem;
+     display: none; /*solution does not show this information*/
+    }
+
+    .attribution a {
+     color: hsl(228, 45%, 44%);
+    }
+   
+    .outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 700;
+    font-style: normal;
+}
+
+    body {
+      background-color: hsl(212, 45%, 89%); /*taken from style-guide*/
+      width: 100%;
+      height: 100dvh;
+      margin: 0rem;
+      padding: 0rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /*this allows the qr-container to center vertically*/
+      margin: 0rem;
+      padding: 0rem;
+    }
+
+    .qr-container {
+      max-width: 16rem; /*determined to use this size due to preview image*/
+      height: auto;
+      padding: 1rem;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0rem 1.25rem 1rem rgb(0,0,0,0.05);
+      align-self: center;
+      overflow: auto;
+      scrollbar-width: thin;
+      margin: 1rem;
+    } 
+
+    img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+
+    p:nth-child(2) {
+      font-size: 1.25rem;
+      font-family: outfit;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      padding: 0rem;
+      margin: 1.5rem 0rem;
+    }
+
+    p:nth-child(3) {
+      font-size: 15px;
+      font-family: outfit;
+      font-weight: 400;
+      color: hsl(216, 15%, 48%);
+      margin: 0rem 0rem 2rem 0rem; /*removed extra space from top and bottom margin*/
+    }
+    
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <section class="qr-container"> <!--Added container for formatting of main elements-->
+    
+     <img src="images/image-qr-code.png"> <!--Added image-->
+    
+     <p>Improve your front-end skills by building projects</p>
+
+     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+    </section>
+
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">AliasUsed</a>.</div>
+
+  </main>
+
+</body>
+</html>
