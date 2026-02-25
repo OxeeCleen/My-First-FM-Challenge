@@ -24,7 +24,7 @@ This is a brief recap of how I came up with a solution for the QR code component
 ![](images/desktop-solution-screenshot.png)  
 ![](images/mobile-solution-screenshot.png)
 
-Both screenshots were taken using Windows Snipping Tool on Edge.
+Both screenshots were taken using FireFox screenshot.
 
 ### Links
 
