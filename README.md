@@ -28,8 +28,8 @@ Both screenshots were taken using FireFox screenshot.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/OxeeCleen/My-First-FM-Challenge](https://github.com/OxeeCleen/My-First-FM-Challenge)
+- Live Site URL: [https://oxeecleen.github.io/My-First-FM-Challenge/](https://oxeecleen.github.io/My-First-FM-Challenge/)
 
 ## My process
 
@@ -64,4 +64,4 @@ Both screenshots were taken using FireFox screenshot.
 
 ## Author
 
-- Frontend Mentor — [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor — [@AliasUsed](https://www.frontendmentor.io/profile/OxeeCleen)
